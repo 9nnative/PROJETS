@@ -8,33 +8,79 @@
 
 /*HEADER*/
 
-.menuclass {
-    overflow: hidden;
-    padding-top: 2em;
-    position: relative;
-    left: 24em;
-  }
+header {
+display: flex;
+flex-direction: row;
+justify-content: center;
+height: 30px;
+}
 
 .menuclass a { 
+    height: 1em;
     float: left;
-    color: #000000;
-    background-color: rgb(255, 255, 255);
+    color: #ffffff88;
     text-align: center;
-    padding: 14px 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 21px;
     transition: transform .2s; 
   }
 
 .menuclass a:hover {
-    background-color: rgba(243, 151, 139, 0.699);
     color: rgb(255, 255, 255);
     size: 120%;
-    transform: scale(0.92); /* petit dézoom */
+    transform: scale(0.96); /* petit dézoom */
   }
   
   
 .menuclass a.active {  /* lien actif */
-    background-color:  rgb(243, 151, 139);
+    background-color:  rgba(5, 2, 14, 0.609);
     color: white;
   }
+
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 1em;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 4px);
+  transform: rotate(-45deg) translate(-9px, 4px);
+  background-color: rgb(255, 255, 255);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-9px, -4px);
+  transform: rotate(45deg) translate(-9px, -4px);
+  background-color: rgb(255, 255, 255);
+}
+
+
+/*BODY*/
+
+body{
+  background-color: rgb(0, 0, 0)
+}
+
+#image_banniere{
+  width: 100%;
+  
+
+
+
+}
