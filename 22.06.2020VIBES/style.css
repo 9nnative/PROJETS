@@ -1,19 +1,10 @@
-html {
-    background-image: url("https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/background.jpg?raw=true" );
-    background-repeat: no-repeat;
-    width: 1679px;
-    height: 2500px;
-}
+
 @font-face {
     font-family: "Oswald-regular";
     src: url('https://github.com/9nnative/HTMLCSS/blob/master/HTML_CSS/Sites/10.06.2020.NI/Oswald-Light.ttf');
   }
 
-body{
-    width :80% ;
-    height: 100%;
-    margin: 9em;
-}
+
 
 /*HEADER*/
 
