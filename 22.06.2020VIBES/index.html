@@ -3,8 +3,9 @@
 <html>
         <head>
             <meta charset="UTF-8">
-            <title>VIBES</title>
+            <title>TOOL BAND</title>
             <link type="text/css" rel="stylesheet" href="style.css" />
+            <link type="text/css" rel="stylesheet" href="anim.css" />
         </head>   
 
     <body>
@@ -20,7 +21,7 @@
                 <a href="#festivals">TOUR</a>
                 <a href="#merchandise">MERCHANDISE</a>
         
-                <div class="container" onclick="myFunction(this)">
+                <div class="container" onclick="animMenu(this)">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
@@ -53,6 +54,15 @@
                     <ul>AUG. 1 2019 | AMSTERDAM</ul>
                     <ul>JUL. 29 2019 | PARIS</ul>
                     <ul>JUN. 24 2019 | MADRID</ul>
+                    <ul><div class="mouse_wave">
+
+
+                        <span class="scroll_arrows one"></span>
+                        <span class="scroll_arrows two"></span>
+                        <span class="scroll_arrows three"></span>
+            
+                    </div>
+                </ul>
 
             </div>
             <div id ="News">
@@ -74,12 +84,18 @@
             
         </section >
         <section class="middlecontainer2">
-                <img id ="album_fear_inolucum"
-            
-        </section >
+                <img id ="album_fear_inolucum" src="https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/album_fear_inoculum.jpg?raw=true">
+                <img id ="album_opiate" src="https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/album_opiate.jpg?raw=true">
+                <img id ="album_10000days" src="https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/album_10000days.jpg?raw=true">
+        </section>
         <section>
+                                                <canvas id="canvas"></canvas>
+                                    <audio preload="true" id="collide">
+                                        <source src="https://dl.dropbox.com/u/26141789/canvas/pingpong/Metal%20Cling%20-%20Hit.mp3" />
+                                        <source src="https://dl.dropbox.com/u/26141789/canvas/pingpong/Metal%20Cling%20-%20Hit.wav" />
+                                    </audio>
             
-        </section class="section">
+        </section>
         <section>
             
         </section id="hugesection">
@@ -95,10 +111,15 @@
 </html>
 
 <script>
-    function myFunction(x) {
+    function animMenu(x) {
       x.classList.toggle("change");
     }
     </script>
+
+
+
+
+
 <script>
     var acc = document.getElementsByClassName("accordion");
     var i;
@@ -114,4 +135,5 @@
         }
       });
     }
-    </script>
+</script>
+

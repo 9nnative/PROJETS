@@ -152,6 +152,10 @@ justify-content: center;
   display: flex;
   flex-direction: column;
 }
+
+/*petite fleche animee*/
+
+
 #News{
   width: 33.3%;
 }
@@ -190,6 +194,7 @@ justify-content: center;
 }
 #album_fear_inolucum{
   width: 33.3%;
+  height: 100%;
 }
 
 #album_opiate{
