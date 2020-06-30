@@ -10,6 +10,8 @@
     <body>
         <div id ="wrapper">
         <header>
+            
+            <img src ="https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/fearinoculum_top.jpg?raw=true">
             <img src="">
             <nav class ="menuclass">
                 <a class ="active" href="#Home">HOME</a>
@@ -17,29 +19,64 @@
                 <a href="#theband">THE BAND</a>
                 <a href="#festivals">TOUR</a>
                 <a href="#merchandise">MERCHANDISE</a>
-            </nav>
+        
                 <div class="container" onclick="myFunction(this)">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
 </div>
-
+</nav>
+            <img src ="https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/fearinoculum_bot.jpg?raw=true">  
 
                 <span class="before"></span>
                 <span class="main"></span>
                 <span class="after"></span>
 
-            </div>
+
         </header>
 
-        <img id="image_banniere" src= "https://i.pinimg.com/originals/6c/43/5d/6c435db8053ebc0b423e8f83bb5e69ff.jpg">
-        
-        <section>
+        <img id="image_banniere"">
+
+        <section class = "middlecontainer">
+            <div id ="Releases">
+                <h2>
+                    DANNY AT THE BAKED POTATO <br>  ON JULY 16
+                </h2>
+                <p>
+                    As part of their select shows for July, DANNY will be performing with the JAMIE KIME BAND at the BAKED POTATO JAZZ CLUB in STUDIO CITY on THURSDAY, JULY 16.  $30.00.  ($10.00 patio seating and $6.00 Livestream).     
+                    https://www.thebakedpotato.com/events/jamie-kime-band-14/
+                </p>
+            </div>
+            <div id ="LastDates">
+                <h2>       LAST DATES</h2>
+                    <ul>SEPT. 24 2019 | MANCHESTER</ul>
+                    <ul>AUG. 1 2019 | AMSTERDAM</ul>
+                    <ul>JUL. 29 2019 | PARIS</ul>
+                    <ul>JUN. 24 2019 | MADRID</ul>
+
+            </div>
+            <div id ="News">
+                <button class="accordion">NEW ALBUM COMING SOON</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                <button class="accordion">FEAR INOCULUM</button>
+                        <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                <button class="accordion">ROSETTA STONED</button>
+                        <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                     </div>
             
-        </section class="hugesection">
-        <section>
+        </section >
+        <section class="middlecontainer2">
+                <img id ="album_fear_inolucum"
             
-        </section class="section">
+        </section >
         <section>
             
         </section class="section">
@@ -54,10 +91,27 @@
         </section class="section">
 
     </div>
+</div>
 </html>
 
 <script>
     function myFunction(x) {
       x.classList.toggle("change");
+    }
+    </script>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
     }
     </script>
