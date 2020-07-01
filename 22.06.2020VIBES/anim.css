@@ -4,9 +4,10 @@
 	display: block;
 	margin: 0 auto;
 	width: 24px;
-	height: 100px;
-    margin-top: 125px;
-    padding-top: 220px;
+  height: 100px;
+  margin: 0px;
+  align-self: center
+
 }
 .scroll_arrows
 {
@@ -55,7 +56,14 @@
   -webkit-animation-direction: alternate;
   margin-top: -6px;
 }
+/*                            <div class="mouse_wave" onclick="animMenu(this)">
 
+
+<span class="scroll_arrows one"></span>
+<span class="scroll_arrows two"></span>
+<span class="scroll_arrows three"></span>
+
+</div>*/
 
 @-webkit-keyframes mouse-wave {
 
