@@ -47,10 +47,11 @@ header {
 
 #menu {
   display: flex;
-
 justify-content: center;
-height: 30px;
+height: 40px;
 padding-bottom: 12px;
+background-color  :#000002;
+
 
 }
 #menu a { 
@@ -63,8 +64,9 @@ padding-bottom: 12px;
     padding-top: 3px;
     padding-bottom: 3px;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 24px;
     transition: transform .2s; 
+    padding-top: 5px;
   }
   
 #menu a:hover {
@@ -85,6 +87,7 @@ padding-bottom: 12px;
   cursor: pointer;
   padding-left: 1em;
   width: 31px;
+  padding-top : 6px;
 }
 
 .bar1, .bar2, .bar3 {
@@ -121,7 +124,7 @@ body{
 .hero{
 
   text-align: center;
-  background: transparent url('https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/fearinoculum_top.jpg?raw=true') no-repeat center ;
+  background: transparent url('https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/fearinoculum.jpg?raw=true') no-repeat center ;
   background-size: cover;
   width: 100%;
   height: 700px;
@@ -154,11 +157,13 @@ body{
 }
 .middlecontainer>div{
   flex: 1;
+  padding-right: 3em;
+  padding-left: 3em;
   
 }
 
 section{
-  background-color: #020B08;
+  background-color:#000002
 }
 .sectionfoot{
   display: flex;
