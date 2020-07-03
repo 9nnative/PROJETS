@@ -227,10 +227,11 @@ section{
 }
 .sectionfoot{
   display: flex;
-  background: transparent url('https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/fearinoculum_bot.jpg?raw=true') no-repeat 0 0;
+  background: transparent url('https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/footer.jpg?raw=true') no-repeat 0 0;
+  background-size: cover;
   flex-direction: row;
   justify-content: center;
-  
+  height: 340px;
 }
 .sectionfoot>div{
   flex: 1;
@@ -395,7 +396,7 @@ input[type=submit]:hover {
 
 #parallax {
   /* The image used */
-  background-image: url('https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/1606770.jpg?raw=true');
+  background-image: url('https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/parallax.jpg?raw=true');
 
   /* Full height */
   height: 450px;
