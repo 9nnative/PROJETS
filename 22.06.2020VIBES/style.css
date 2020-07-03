@@ -4,7 +4,6 @@
     src: url('https://github.com/9nnative/HTMLCSS/blob/master/HTML_CSS/Sites/10.06.2020.NI/Oswald-Light.ttf');
   }
 
-
 *{
 
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -17,10 +16,11 @@
 h1{
   text-decoration: none;
   font-size: 21px;
-  color: rgb(107, 107, 107);
+  color: white;
   font-style: normal;
 }
 
+h1.a {color: white; text-shadow: black 0.1em 0.1em 0.2em}
 h2{
 
   text-decoration: none;
@@ -28,7 +28,7 @@ h2{
   color: rgb(107, 107, 107);
   font-style: normal;
 }
-
+h.a {color: white; text-shadow: black 0.1em 0.1em 0.2em}
 p{
   color: rgb(223, 223, 223);
   
@@ -194,7 +194,7 @@ body{
 }
 
 #ptop{
-
+  text-shadow: black 0.1em 0.1em 0.2em;
   padding-left : 6em;
   padding-right : 6em;
   opacity: 0.92;
@@ -396,7 +396,7 @@ input[type=submit]:hover {
 
 #parallax {
   /* The image used */
-  background-image: url('https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/parallax.jpg?raw=true');
+  background-image: url('https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/parallax.png?raw=true');
 
   /* Full height */
   height: 450px;
