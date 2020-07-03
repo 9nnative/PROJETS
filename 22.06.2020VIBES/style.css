@@ -206,7 +206,6 @@ section{
 .sectionfoot{
   display: flex;
   background: transparent url('https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/fearinoculum_bot.jpg?raw=true') no-repeat 0 0;
-  display: flex;
   flex-direction: row;
   justify-content: center;
   
@@ -359,16 +358,17 @@ input[type=submit]:hover {
   background-color :#000002;
 }
 
-.parallax {
+#parallax {
   /* The image used */
-  background-image: url('img_parallax.jpg');
+  background-image: url('https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/1606809.jpg?raw=true');
 
   /* Full height */
-  height: 100%; 
+  height: 450px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
