@@ -13,7 +13,6 @@
 #wrapper{
   max-width: 1200px;
   margin: auto;
-  
 }
 h1{
   text-decoration: none;
@@ -45,7 +44,27 @@ header {
   flex-direction: column;
   justify-content: center;
 }
+#joinus{
+  height: 1em;
+  color: #ffffff88;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-size: 24px;
+  transition: transform .2s; 
+  padding-top: 5px;
+  border: 1px solid rgb(255, 255, 255);
 
+}
+
+#joinus a:hover{
+  color: rgb(255, 255, 255);
+  
+    transform: scale(0.96);
+}
 #menu {
   display: flex;
 justify-content: center;
@@ -151,6 +170,7 @@ background-color  :#000002;
 body{
   display: flex;
   align-items: center;
+  background-color : #251C57;
 }
 
 
@@ -167,7 +187,7 @@ body{
 
 }
 .herotext{
-  padding-bottom: 25px;
+  padding-bottom: 4em;
 }
 #h1top{
 
@@ -178,6 +198,7 @@ body{
   padding-left : 6em;
   padding-right : 6em;
   opacity: 0.92;
+  padding: 2em;
 }
 
 
@@ -195,7 +216,8 @@ body{
   flex: 1;
   padding-right: 3em;
   padding-left: 3em;
-  
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 section{
@@ -225,9 +247,17 @@ section{
 #LastDates{
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align : center;
+  justify-content: center;
   padding: 0px;
  
+
+}
+
+#h2LastDates{
+  padding-bottom: 2em;
+
 
 }
 
@@ -236,6 +266,8 @@ section{
 
 #News{
   width: 33.3%;
+  display: flex;
+  flex-direction: column;
 }
 
 /*Accordeon*/
@@ -247,13 +279,16 @@ section{
   padding: 18px;
   width: 100%;
   border: none;
+  flex: 1;
 
   outline: none;
   font-size: 18px;
   transition: 0.4s;
 }
 .active, .accordion:hover {
-  background-color: rgba(204, 204, 204, 0); 
+  color: rgb(255, 255, 255);
+  
+    transform: scale(0.96);
 }
 .panel {
   padding: 0 18px;
@@ -360,7 +395,7 @@ input[type=submit]:hover {
 
 #parallax {
   /* The image used */
-  background-image: url('https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/1606809.jpg?raw=true');
+  background-image: url('https://github.com/9nnative/PROJETS/blob/master/22.06.2020VIBES/1606770.jpg?raw=true');
 
   /* Full height */
   height: 450px;
