@@ -8,6 +8,7 @@
 *{
 
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0px;
 }
 #wrapper{
   max-width: 1200px;
@@ -50,8 +51,13 @@ header {
 justify-content: center;
 height: 40px;
 padding-bottom: 12px;
-background-color  :#000002;
+background-color  :#000002;}
 
+#menu2 {
+  display: flex;
+justify-content: center;
+height: 40px;
+background-color  :#000002;
 
 }
 #menu a { 
@@ -75,12 +81,39 @@ background-color  :#000002;
     transform: scale(0.96); /* petit dézoom */
   }
   
+#sortby{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu2 a { 
+  height: 1em;
+  float: left;
+  color: #ffffff88;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  font-size: 19px;
+  transition: transform .2s; 
+  padding-top: 5px;
+  }
   
-#menu  a.active {  /* lien actif */
+#menu2 a:hover {
+    color: rgb(255, 255, 255);
+  
+    transform: scale(0.96); /* petit dézoom */
+  }
+  
+  
+#menu2  a.active {  /* lien actif */
     background-color:  rgba(5, 2, 14, 0.609);
     color: white;
   }
-
 
 .container {
   display: inline-block;
@@ -133,7 +166,9 @@ body{
   padding-bottom: 3em;
 
 }
-
+.herotext{
+  padding-bottom: 25px;
+}
 #h1top{
 
 }
@@ -151,6 +186,7 @@ body{
 
 .middlecontainer{
   display: flex;
+  padding: 0px;
 
 
   
@@ -163,7 +199,9 @@ body{
 }
 
 section{
-  background-color:#000002
+  background-color:#000002;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 .sectionfoot{
   display: flex;
@@ -179,6 +217,7 @@ section{
 }
 
 
+
 #Releases{
   
 
@@ -188,6 +227,7 @@ section{
   display: flex;
   flex-direction: column;
   text-align : center;
+  padding: 0px;
  
 
 }
@@ -214,7 +254,7 @@ section{
   transition: 0.4s;
 }
 .active, .accordion:hover {
-  background-color: #ccc; 
+  background-color: rgba(204, 204, 204, 0); 
 }
 .panel {
   padding: 0 18px;
@@ -229,26 +269,41 @@ section{
   display: flex;
 flex-direction: row;
 justify-content: center;
+background-color :#000002;
 
 }
 #album_fear_inolucum{
-  width: 33.3%;
+  width: 25%;
   height: 100%;
 }
 
 #album_opiate{
-  width: 33.3%;
+  width: 25%;
+  height: 100%;
 }
 #album_10000days{
-  width: 33.3%;
+  width: 25%;
+}
+#no_ablum_random{
+  width: 25%;
 }
 
+#album_10000days{
+  height: 100%;
+}
+#no_album_random{
+  width : 25%;
+}
+#no_album_random2{
+  width : 25%;
 
+}
 .testimonials{
   width : 100%;
   height : 250px;
   display: flex;
-
+  padding-top : 2em;
+  padding-bottom: 2em;
 
 
 }
@@ -263,6 +318,8 @@ justify-content: center;
 .testiimg{
 
   height : 100%;
+  padding-right : 3em;
+  padding-left : 3em;
 }
 .testidivclass{
   padding-left: 1em;
@@ -298,7 +355,20 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .container2 {
-  border-radius: 5px;
-
   padding: 20px;
+  background-color :#000002;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('img_parallax.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
